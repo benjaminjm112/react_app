@@ -13,7 +13,7 @@ deploy:
   region: "ap-south"
   app: "react_app"
   env: "Reactapp-env-1 "
-  bucket_name: "elasticbeanstalk-ap-south-1-534613101025"
+  bucket_name: "arn:aws:s3:::elasticbeanstalk-ap-south-1-534613101025"
   bucket_path: "react_app"
   on:
     branch: main
