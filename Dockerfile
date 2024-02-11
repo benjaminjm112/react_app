@@ -11,7 +11,7 @@ RUN npm install
 
 COPY --chown=node:node . .
 
-RUN npm run build
+RUN npm run test
 
 FROM nginx
 EXPOSE 80
