@@ -14,7 +14,7 @@ deploy:
   secret_access_key: $AWS_SECRET_KEY
   region: "ap-south-1"
   app: "react_app"
-  env: "Reactapp-env-1 "
+  env: "Reactapp-env-1"
   bucket_name: "elasticbeanstalk-ap-south-1-534613101025"
   bucket_path: "react_app"
   on:
